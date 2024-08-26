@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(135deg, rgba(241, 137, 19, 0.951), rgba(243, 122, 17, 0.951) );
+}
+.wrapper{
+    width: 90%;
+    max-width: 800px;
+    background: #000;
+    margin: 100px auto 0;
+    text-align: center;
+    border-radius: 30px;
+    height: 122vh;
+    margin-bottom: 30px;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px ;
+    
+    
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #fff;
+    color: #000;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline:0;
+    background:#fff;
+    border-radius: 50%;
+    width:60px;
+    height: 60px;
+    cursor:pointer;
+}
+.search button img{
+    width: 16px;
+    
+}
+.ard{
+   text-align: center;
+   padding: 10px;
+   position: relative;
+   right: 0;
+   border-radius: 30px;
+   
+   justify-content: space-between;
+   }
+   .ard-info{
+    display: flex;
+   }
+   
+.ard h2{
+    color:#fff ;
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-left: 30px;
+    font-weight: 600;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.thumbnail{
+    padding: 10px;
+    position: relative;
+    left: 0;
+    
+    
+}   
+
+.thumbnail img{
+    width:250px;
+    height: 250px;
+    border-radius: 30px;
+    border: #fff 2px solid;
+}
+.hotel{
+    background-image: url(images/hotel1.jpeg) ;
+    filter: saturate(50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 26vh;
+    
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.hotel-info h1{
+    font-size: 70px;
+    font-weight: 500;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hotel-info h2{
+    font-size: 70px;
+    font-weight: 500;
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.hotel-rec{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.hotel-rec img{
+width: 100px;
+border-radius:30px;
+background: transparent;
+filter: saturate(2); 
+}
+.hotel-rec h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hotel-recon{
+    width:170px;
+    
+}
+
+.checked{
+    color:white;
+    filter: saturate(4);   
+    font-size: 30px;
+    padding: 0;
+    gap:0;
+}
